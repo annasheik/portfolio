@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Anna Kremer, Web Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta charset="UTF-8">
+	<meta name="Anna Kremer Portfolio" content="Portfolio of a Fullstack Web Developer">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Quattrocento|Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"></script>
+</head>
+<body>
+	<header role="banner">
+		<!-- Header mobile! -->
+		<div class="header-nav">
+			<div class="header-name">
+				<h1 class="anna">Anna Kremer</h1>
+				
+				<div class="header"></div>
+				<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+				<label for="openSidebarMenu" class="sidebarIconToggle">
+					<div class="spinner diagonal part-1"></div>
+				 	<div class="spinner horizontal"></div>
+					<div class="spinner diagonal part-2"></div>
+				</label>
+				<div id="sidebarMenu">
+					<ul class="sidebarMenuInner">
+						<li><a href="#about" class="about-link">about</a></li>
+						<li><a href="#projects" class="projects-link">projects</a></li>
+						<li><a href="#contact-me" class="contact-link">Contact me</a></li>
+  					</ul>
+				</div>
+			</div>
+	    </div>
+
+	    <!-- Header desktop! -->
+        <div class="header-desktop">
+        	<h1 class="anna">Anna Kremer</h1>
+        	<div class="nav-links-desktop">
+        		<ul>
+        			<li><a href="#about" class="about-link">about</a></li>
+					<li><a href="#projects" class="projects-link">projects</a></li>
+					<li><a href="#contact-me" class="contact-link">Contact me</a></li>
+        		</ul>
+        	</div>
+        </div>
+
+	</header>
+
+
+
+	<main role="main">
+		<div class="banner-photo">	
+		</div>
+		<div class="header-caption">full stack web developer<span class="blinking-cursor">|</span></div>
+		<div class="scroll-arrow"><i class="fas fa-angle-double-down"></i></div>
+		<div class="main-container">
+			<div class="about" id="about">
+				<h3 class="main-page-header">about</h3>
+				<div class="portret-container">
+					<img src="./photos/1.jpg" alt="image of Anna Kremer" class="portret">
+				</div>
+				<h4 class="about-header">Anna Kremer</h4>
+				<p class="divider-name"></p>
+				<div class="about-description">
+					<p>I am a full stack Web Developer and entrepreneur.
+					For the last 4 years, I have been running my own online clothing boutique. While creating
+					and maintaining the website, I discovered a passion for a web development and everything tech-related.</p>
+					<p>A year later, I am pleased to be focusing on web development full time.
+					I continue to push myself every day to learn new technologies and expand my knowledge.
+					I'm very excited about what I've learned so far, but I'm even more excited about everything that I have yet to learn.</p>
+				</div>
+			</div>
+
+			<div class="projects" id="projects">
+				<h3 class="main-page-header">projects</h3>
+				<!--DAILY PLANNER APP -->
+				<h4 class="app-name">Daily Planner App</h4>
+				<img src="./photos/daily-planner.png" alt="Daily Planner App screenshot" class="screenshot">
+				<div class="project-description">
+					<p>A MERN stack app that allows users to create daily to-do lists for different calendar days. The users are able to add, edit and delete the tasks and goals for the next 7 days and mark already completed ones.</p>
+				</div>
+				<div class="project-links">
+					<a href="https://github.com/annasheik/daily-planner-client" target="_blank">Code |</a>
+					<a href="https://daily-planner-app.herokuapp.com/" target="_blank">Live Demo</a>
+				</div>
+				<div class="icons">
+					<ul>
+						<li><i class="devicon-react-original colored"></i> 
+						     <span>React/Redux</span></li>
+						<li><i class="devicon-nodejs-plain colored"></i>
+						    <span>Node</span></li>
+						<li><i class="devicon-express-original colored"></i>
+							<span>Express</span></li>
+						<li><i class="devicon-javascript-plain colored"></i>
+							<span>JavaScript</span></li>
+						<li><i class="devicon-heroku-original-wordmark"></i>
+							<span>Heroku</span></li>
+						<li><i class="devicon-mocha-plain"></i>
+							<span>Mocha/Chai</span></li>
+						<li><i class="devicon-travis-plain"></i>
+							<span>TravisCI</span></li>
+						<li><i class="devicon-mongodb-plain-wordmark colored"></i>
+							<span>Mongo/Mongoose</span></li>
+					</ul>
+				</div>
+
+				<!-- TRAVEL JOURNAL APP-->
+				<h4 class="app-name">Travel Journal App</h4>
+				<img src="./photos/travel-journal.png" alt="Travel Journal App screenshot" class="screenshot">
+				<div class="project-description">
+					<p>Travel Journal App allows user to create a beautiful online travel journal to keep their memories forever. The users are able to add photos and share the best memories from the trip, add the new foreign words learned or their favorite quotes. Users can view, edit and delete each journal entry.
+					Fully responsive.</p>
+				</div>
+				<div class="project-links">
+					<a href="https://github.com/annasheik/travel-journal" target="_blank">Code |</a>
+					<a href="https://travel-journal-app.herokuapp.com" target="_blank">Live Demo</a>
+				</div>
+				<div class="icons">
+					<ul>
+						<li><i class="devicon-nodejs-plain colored"></i>
+						    <span>Node</span></li>
+						<li><i class="devicon-express-original colored"></i>
+							<span>Express</span></li>
+						<li><i class="devicon-javascript-plain colored"></i>
+							<span>JavaScript</span></li>
+						<li><i class="devicon-heroku-original-wordmark"></i>
+							<span>Heroku</span></li>
+						<li><i class="devicon-html5-plain"></i>
+								<span>HTML5</span></li>
+						<li><i class="devicon-css3-plain"></i>
+							<span>CSS</span></li>
+						<li><i class="devicon-mocha-plain"></i>
+							<span>Mocha/Chai</span></li>
+						<li><i class="devicon-travis-plain"></i>
+							<span>TravisCI</span></li>
+						<li><i class="devicon-mongodb-plain-wordmark colored"></i>
+							<span>Mongo</span></li>
+					</ul>
+				</div>
+
+				<!-- PLAN YOUR DAY APP-->
+				<h4 class="app-name">Plan Your Day App</h4>
+				<img src="./photos/plan-your-day.png" alt="Plan Your Day App screenshot" class="screenshot">
+				<div class="project-description">
+					<p>An application to find out the weather and the best venues around you in any city in the world. The website pulls data from the third-party API's: OpenWeatherMap.org and Foursquare.com, and uses Google Places API to verify the location.</p>
+					<p>The user is able to find out the current weather in any location in the world and also search for venues around, sorted by categories. The user is provided with the photos for each venue, its address and the url to the venue's website. Fully responsive</p>
+				</div>
+				<div class="project-links">
+					<a href="https://github.com/annasheik/Plan-your-day" target="_blank">Code |</a>
+					<a href="https://annasheik.github.io/Plan-your-day/" target="_blank">Live Demo</a>
+				</div>
+				<div class="icons">
+					<ul>
+						<li><i class="devicon-javascript-plain colored"></i>
+							<span>JavaScript</span></li>
+						<li><i class="devicon-html5-plain"></i>
+								<span>HTML5</span></li>
+						<li><i class="devicon-css3-plain"></i>
+							<span>CSS</span></li>
+						<li><i class="devicon-jquery-plain-wordmark"></i>
+							<span>jQuery</span></li>
+					</ul>
+				</div>
+
+				<!-- Coffee quiz App-->
+				<h4 class="app-name">Plan Your Day App</h4>
+				<img src="./photos/plan-your-day.png" alt="Plan Your Day App screenshot" class="screenshot">
+				<div class="project-description">
+					<p>A fun interactive app that allows coffee lovers like me to test their knowledge of coffee.
+						Developed using JavaScript, HTML, CSS.</p>
+				</div>
+				<div class="project-links">
+					<a href="https://repl.it/@annasheik/Coffee-Quiz-App" target="_blank">Code |</a>
+					<a href="https://coffee-quiz-app.annasheik.repl.co/" target="_blank">Live Demo</a>
+				</div>
+				<div class="icons">
+					<ul>
+						<li><i class="devicon-javascript-plain colored"></i>
+							<span>JavaScript</span></li>
+						<li><i class="devicon-html5-plain"></i>
+								<span>HTML5</span></li>
+						<li><i class="devicon-css3-plain"></i>
+							<span>CSS</span></li>
+					</ul>
+				</div>
+			</div>
+			<!-- CONTACT ME -->
+			<div class="contact-me-section" id="contact-me">
+				<h3 class="main-page-header">Contact me</h3>
+				<ul>
+				<li><h5>Email Address:</h5> 
+					<span><a class="email"
+						href="mailto:sheikoanna@gmail.com" target="_self">sheikoanna@gmail.com</a></span>
+					</li>
+				<li><a class="linkedin"
+					href="https://www.linkedin.com/in/anna-kremer/" target="_blank">LinkedIn</a></li>
+			</ul>
+			</div>
+		</div>
+	</main>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

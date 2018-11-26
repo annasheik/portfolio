@@ -1,0 +1,507 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+/*BANNER PHOTO*/
+.banner-photo {
+	background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a00dd14dd25d32b799b8e6e0270fd535&auto=format&fit=crop&w=1652&q=80) no-repeat center top;
+    height: 283px;
+    background-size: 160%;
+    margin-top: 27px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.anna {
+    margin-top: 57px;
+    margin-left: 17px;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    letter-spacing: 11px;
+} 
+.header-desktop {
+	display: none;
+}
+.header-name {
+	margin-top: 53px;
+}
+.scroll-arrow {
+	text-align: center;
+    margin-top: -29px;
+    font-size: 21px;
+}
+
+.blinking-cursor {
+  	font-weight: 100;
+  	font-size: 21px;
+  	color: #2E3D48;
+  	-webkit-animation: 1s blink step-end infinite;
+  	-moz-animation: 1s blink step-end infinite;
+  	-ms-animation: 1s blink step-end infinite;
+  	-o-animation: 1s blink step-end infinite;
+  	animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+.header-caption {
+	letter-spacing: 4px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 38px;
+    margin-bottom: 50px;
+} 
+
+/*ABOUT SECTION*/
+.about {
+	font-family: 'Quattrocento', serif;
+    font-size: 16px;
+}
+.portret {
+	width: 53%;
+    border-radius: 50%;
+} 
+.portret-container {
+	text-align: center;
+}
+.main-page-header {
+	margin-left: 20px;
+    height: 35px;
+    padding-left: 16px;
+    border-left: 2px solid rgb(216,216,216);
+    margin: 80px 0 30px;
+    line-height: 100%;
+    color: black;
+}
+.divider-name {
+    width: 75px;
+    border-bottom: 2px solid rgb(216,216,216);
+    margin: 0 auto !important;
+}
+.about-header {
+	text-align: center;
+}
+.about p {
+	margin-left: 13px;
+}
+ /*PROJECTS SECTION*/
+ .screenshot {
+ 	width: 100%;
+ }
+ .icons ul {
+ 	list-style: none;
+ }
+ .icons li {
+ 	display: inline-block;
+ 	text-align: center;
+ 	width: 30%;
+ 	margin-bottom: 20px;
+ }
+ .icons span {
+ 	display: block;
+ }
+.icons i {
+	font-size: 33px;
+}
+.about, .projects {
+	font-family: 'Quattrocento', serif;
+	margin-left: 15px;
+    margin-right: 10px;
+}
+
+/*PROJECTS*/
+.app-name, .project-links {
+	text-align: center;
+}
+.project-links a {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+.icons {
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*CONTACT ME*/
+.contact-me-section {
+	margin-left: 13px;
+	font-family: 'Quattrocento', serif;
+    font-size: 16px;
+    line-height: 160%;
+    outline: none;
+}
+.contact-me-section h5 {
+	letter-spacing: 1px;
+    font-size: 1.1em;
+    line-height: 20px;
+    margin-bottom: 2px;
+    /*text-transform: uppercase;*/
+}
+.contact-me-section a {
+	display: block;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.email {
+	text-decoration: none;
+	color: black;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: 700px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.linkedin {
+	font-size: 1.1em;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+/* Hamburger Button */
+#sidebarMenu {
+	height: 208px;
+    position: fixed;
+    /* left: 0; */
+    width: 193px;
+    top: 41px;
+    /* margin-top: 60px; */
+    transform: translateY(-250px);
+    transition: transform 250ms ease-in-out;
+    /* background: gray; */
+    background-color: rgba(216, 216, 216, 0.83);
+    color: black;
+}
+
+.sidebarMenuInner {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.sidebarMenuInner li {
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+ 
+.sidebarMenuInner li span {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.50);
+}
+
+.sidebarMenuInner li a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+.sidebarMenuInner li a:hover {
+	text-decoration: underline;
+}
+
+input[type="checkbox"]:checked ~ #sidebarMenu  { 
+	transform: translateX(0); 
+
+}
+
+
+input[type=checkbox] {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: none;
+}
+
+.sidebarIconToggle {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 22px;
+  left: 15px;
+  height: 22px;
+  width: 22px;
+}
+
+.spinner {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: gray;
+}
+
+ 
+
+.horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+
+.diagonal.part-1 {
+  position: relative;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  float: left;
+}
+
+.diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  opacity: 0;
+}
+
+ 
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 8px;
+}
+
+ 
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -9px;
+}
+
+/*NON MOBILE*/
+@media only screen and (min-width: 640px) {
+	/*Header*/
+	.header-nav {
+		display: none;
+	}
+	.header-desktop {
+		display: block;
+	}
+	.anna {
+		font-size: 39px;
+		margin-left: 39px;
+		top: 30px;
+		margin-top: 28px;
+		margin-bottom: -22px;
+	}
+	.nav-links-desktop {
+        margin-left: auto;
+    	margin-right: auto;
+    	width: 600px;
+    	margin-top: 58px;
+    	margin-bottom: -31px;
+	}
+	.nav-links-desktop li:nth-child(-n+2) {
+		border-right: 2px solid rgb(216,216,216); 
+	}
+	.nav-links-desktop li {
+		list-style: none;
+		display: inline-block;
+		list-style: none;
+  		text-transform: uppercase;
+  		cursor: pointer;	
+  		padding-right: 28px;
+    	padding-left: 28px;
+    	padding-top: 2px;
+    	padding-bottom: 2px;
+        letter-spacing: 2px;
+    	font-size: 17px;
+	}
+	.nav-links-desktop a {
+		text-decoration: none;
+		color: black;
+	}
+	/*BANNER*/
+	.banner-photo {
+		height: 481px;
+    	background-size: 107%;
+	}
+	.header-caption {
+		letter-spacing: 7px;
+    	margin-top: 31px;
+    	margin-bottom: 50px;
+    	font-size: 27px;
+	}
+	.blinking-cursor {
+		font-weight: 100;
+    	font-size: 28px;
+    	margin-left: 3px;
+	}
+
+	/*ABOUT*/
+	.main-page-header {
+	    margin-left: 25px;
+	    height: 70px;
+	    padding-left: 16px;
+	    line-height: 243%;
+	    font-size: 24px;
+	    vertical-align: middle;
+	}
+	.about-header {
+		font-size: 24px;
+	}
+	.divider-name {
+        width: 292px;
+	}
+	.about p, .project-description p {
+    	margin-left: 64px;
+    	font-size: 20px;
+    	margin-right: 5px;
+	}
+	.app-name {
+		font-size: 24px;
+	}
+	.icons {
+		margin-bottom: 70px;
+	}
+	.project-links {
+		font-size: 21px;
+    	margin: 43px 0;
+	}
+
+}
+@media only screen and (min-width: 980px) {
+	.nav-links-desktop {
+	    left: 20%;
+	}
+	.banner-photo {
+		background-size: 100%;	   
+ 	}
+ 	.portret {
+ 		width: 300px;
+ 	}
+ 	.screenshot {
+ 		width: 950px;
+ 		text-align: center;
+ 		display: block;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 	}
+ 	.project-descrition {
+ 		max-width: 980px;
+ 	}
+	}
+
+@media only screen and (min-width: 1100px) {
+	.nav-links-desktop {
+	    width: 600px;
+    	margin-bottom: -30px;
+    	margin-top: 43px;
+	}
+	.banner-photo {
+		width: 88%;
+		height: 435px;
+		margin-left: auto;
+    	margin-right: auto;
+    	background-size: 91%;
+	}
+	.anna {
+		margin-left: 7%;
+	}
+	.main-page-header {
+		margin-left: 7%;
+	}
+	.project-description {
+		margin-left: 7%;
+    	margin-right: 9%;
+    	max-width: 980px;
+	}
+	.contact-me-section ul {
+		margin-left: 7%;
+	}
+
+}
+@media only screen and (min-width: 1200px) {
+	.banner-photo {
+		width: 72%;
+	    height: 407px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    background-size: 68%;
+	}
+	.anna {
+		margin-left: 17%;
+	}
+	.main-container {
+		max-width: 980px;
+    	margin-left: 10%;
+	}
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
