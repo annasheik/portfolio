@@ -171,7 +171,7 @@
     outline: none;
     background-color: #8080801a;
     padding-bottom: 19px;
-    margin-bottom: 0px;
+    margin-bottom: 0px;w
 }
 .contact-me-section h5 {
 	letter-spacing: 1px;
@@ -375,6 +375,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     	padding-bottom: 2px;
         letter-spacing: 2px;
     	font-size: 17px;
+    	margin-bottom: 9px;
 	}
 	.nav-links-desktop a {
 		text-decoration: none;
