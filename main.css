@@ -200,7 +200,7 @@
     letter-spacing: 1px;
     cursor: pointer;
 }
-.linkedin .github {
+.linkedin, .github {
 	font-size: 1.1em;
 	letter-spacing: 1px;
 	font-weight: bold;
