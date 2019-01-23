@@ -186,6 +186,9 @@
     color: black;
     cursor: pointer;
 }
+.contact-me-section a:hover {
+	text-decoration: underline;
+}
 .email {
 	text-decoration: none;
 	color: black;
@@ -197,11 +200,12 @@
     letter-spacing: 1px;
     cursor: pointer;
 }
-.linkedin {
+.linkedin .github {
 	font-size: 1.1em;
 	letter-spacing: 1px;
 	font-weight: bold;
 }
+
 
 /* Hamburger Button */
 #sidebarMenu {
